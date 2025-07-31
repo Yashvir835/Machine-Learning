@@ -6,7 +6,7 @@ In supervised Machine learning a model learns from the already defined question 
 
 **It learns from being given right answers**
 
-Here the desired outputs are called `lables`. The goal of the system is to `generalize` its response to act correctly in situation not present in the training set.
+Here the desired outputs are called `lables`. The goal of the system is to `generalize` its response to act correctly in situations not present in the training set.
 
 Some common implementation of Supervised machine learning are:
 
