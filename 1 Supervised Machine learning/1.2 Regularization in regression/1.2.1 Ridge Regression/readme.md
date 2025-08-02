@@ -78,6 +78,18 @@ Ridge Regression adds a constraint on the size of the weight vector `w`:
 
 ---
 
+## 🧭 Visual Intuition: Loss Surface & Constraint
+
+- The **squared loss** `(yᵢ - ŷᵢ)²` forms **elliptical contour curves** in `w`-space (weight space).
+- The **regularization constraint** `||w||² ≤ t` defines a **circular region** centered at the origin.
+
+**Optimization Interpretation:**
+
+1. Imagine sliding the ellipse (loss contour) toward the origin to minimize the loss.
+2. The **moment this ellipse first touches the constraint region**, that point is the **optimal `w`**.
+
+---
+
 ## 📝 Summary
 
 - Ridge regression is ideal when we want to **retain all features** but avoid overfitting.
